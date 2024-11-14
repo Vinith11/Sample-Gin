@@ -43,6 +43,10 @@ func main() {
 		c.JSON(http.StatusOK, products)
 	})
 
+	r.GET("/", func(c *gin.Context)  {
+		c.JSON(http.StatusAccepted, "Health-check")
+	})
+
 	r.GET("/products/:id", func(c *gin.Context) {
 		id := c.Param("id")
 		for _, product := range products {
