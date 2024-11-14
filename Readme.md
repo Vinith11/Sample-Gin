@@ -24,7 +24,7 @@ The project is deployed on Render.
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
+   git clone https://github.com/Vinith11/Sample-Gin
    cd your-repo
    ```
 
